@@ -64,7 +64,6 @@ int main(int argc, char **argv) {
         printf("%d\n", resp);
         fflush(stdout);
     }
-
     close(fd);
     return 0;
 }
